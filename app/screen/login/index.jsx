@@ -66,11 +66,12 @@ export default function LoginScreen(){
 
         <View style={style.btnContainer}>
         <MyButton 
-        text="Google"
+        text=" Google"
         imgUrl={ICGoogle}/>
 
         <MyButton
-          text="Facecbook"
+        style={{marginLeft:15}}
+          text=" Facebook"
           imgUrl={ICFacebook}/>
          </View>
        
