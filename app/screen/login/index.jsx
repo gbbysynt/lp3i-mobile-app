@@ -63,7 +63,8 @@ export default function LoginScreen(){
             color='#000113'
             title="Login"/>
         </View>
-        <view style={style.btnContainer}>
+
+        <View style={style.btnContainer}>
         <MyButton 
         text="Google"
         imgUrl={ICGoogle}/>
@@ -71,7 +72,7 @@ export default function LoginScreen(){
         <MyButton
           text="Facecbook"
           imgUrl={ICFacebook}/>
-         </view>
+         </View>
        
       </View>
     </ScrollView>
@@ -95,7 +96,7 @@ const style = StyleSheet.create({
     textAlign:'center'
   },
   brandStyle:{
-    width:50,
+    width:380,
     marginTop:100,
     alignItems:'center',
     justifyContent:'center'
@@ -107,7 +108,7 @@ const style = StyleSheet.create({
   btnContainer:{
     flex:1,
     flexDirection:'row',
-    paddingLeft:20,
-    paddingRight:20
+    paddingLeft:30,
+    paddingRight:30
   }
 })
